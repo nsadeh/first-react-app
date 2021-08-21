@@ -3,15 +3,16 @@
   text-align: center;
 }
 
-// .person-list {
-
-// }
-
 .person-card {
   display: flex;
   color: "red";
 }
 
 .person-card-content {
-  flex: '1 0 auto';
+  flex: "1 0 auto";
+}
+
+.bottom-navbar {
+  position: fixed;
+  bottom: 0;
 }
