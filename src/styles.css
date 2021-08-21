@@ -15,4 +15,29 @@
 .bottom-navbar {
   position: fixed;
   bottom: 0;
+  border-top: 1px solid black;
+  min-width: 100%;
+}
+
+.bottom-icon {
+  transform: scale(1.5);
+}
+
+.plus-icon {
+  transform: scale(2);
+}
+
+.appbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-button {
+  transform: scale(2.5);
+  color: white;
+}
+
+.appbar-icon {
+  transform: scale(1.5);
+  color: white;
 }
